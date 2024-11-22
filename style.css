@@ -3,6 +3,7 @@
 * {
   font-family: "raleway";
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -104,4 +105,23 @@ li {
   border-radius: 50px;
   box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
   border: 1px solid #33a8db;
+}
+
+.respiro{
+  background-image: url('./assets/respiro.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 363px;
+}
+
+
+.respiro p{
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 49.66px;
+  color: #ffffff;
+  max-width: 10ch;
+  text-shadow: 3px 3px 0px rgba(51, 168, 219, 1);
+  padding: 111px 997px 111px 198px;
 }
