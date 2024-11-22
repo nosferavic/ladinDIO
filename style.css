@@ -108,16 +108,17 @@ li {
   border: 1px solid #33a8db;
 }
 
-.respiro{
-  background-image: url('./assets/respiro.png');
+.respiro {
+  background-image: url("./assets/respiro.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 363px;
+  border-top: 1px solid #33a8db;
+  border-bottom: 1px solid #33a8db;
 }
 
-
-.respiro p{
+.respiro p {
   font-size: 40px;
   font-weight: 900;
   line-height: 49.66px;
@@ -127,25 +128,45 @@ li {
   padding: 111px 997px 111px 198px;
 }
 
-.evolucao{
+.evolucao {
   margin-top: 90px;
   margin-bottom: 90px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-text-align: center;
-gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
 }
 
-.evolucao p{
+.evolucao p {
   max-width: 80ch;
 }
 
-.evolucao h1{
+.evolucao h1 {
   max-width: 30ch;
 }
 
-.evolucao img{
+.evolucao img {
   max-width: 100%;
+}
+
+footer {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0),
+    rgba(51, 168, 219, 0.2)
+  );
+  border-top: 1px solid #33a8db;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 60px;
+}
+
+footer span {
+  font-weight: 700;
+  color: #33a8db;
 }
