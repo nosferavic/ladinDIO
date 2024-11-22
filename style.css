@@ -64,6 +64,7 @@ body {
   font-size: 32px;
   font-weight: 700;
   line-height: 37.57px;
+  letter-spacing: 19%;
   color: #33a8db;
   text-align: center;
 }
@@ -124,4 +125,27 @@ li {
   max-width: 10ch;
   text-shadow: 3px 3px 0px rgba(51, 168, 219, 1);
   padding: 111px 997px 111px 198px;
+}
+
+.evolucao{
+  margin-top: 90px;
+  margin-bottom: 90px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+gap: 30px;
+}
+
+.evolucao p{
+  max-width: 80ch;
+}
+
+.evolucao h1{
+  max-width: 30ch;
+}
+
+.evolucao img{
+  max-width: 100%;
 }
