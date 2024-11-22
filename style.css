@@ -3,25 +3,30 @@
 * {
   font-family: "raleway";
   margin: 0;
-
 }
 
-body{
+body {
   background: #000000;
-  color: #ffffff;}
+  color: #ffffff;
+}
 
 .header {
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(7, 25, 32, 0.8), rgba(7, 25, 32, 0.1)), url("./assets/code.png");
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(7, 25, 32, 0.8),
+      rgba(7, 25, 32, 0.1)
+    ),
+    url("./assets/code.png");
   background-size: cover;
   background-repeat: no-repeat;
-height: 605px;
+  height: 605px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 56px;
   gap: 16px;
-  border-bottom: 1px solid #31A8DD;
+  border-bottom: 1px solid #31a8dd;
 }
 
 .header p {
@@ -32,19 +37,18 @@ height: 605px;
   max-width: 41ch;
 }
 
-.header a{
+.header a {
   font-weight: 900;
   font-size: 16px;
   line-height: 18.78px;
   letter-spacing: 21%;
   text-align: center;
   text-decoration: none;
-  color: #31A8DD;
+  color: #31a8dd;
   padding: 19px 46px;
-  border: 3px solid #31A8DD;
+  border: 3px solid #31a8dd;
   margin-top: 8px;
 }
-
 
 .main-title {
   font-size: 40px;
@@ -53,4 +57,51 @@ height: 605px;
   background: linear-gradient(180deg, #33a8db, #1472b7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.secondary-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  color: #33a8db;
+  text-align: center;
+}
+
+.intro {
+  margin: 0 auto;
+  padding: 90px;
+  max-width: 792px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro a,
+.intro p {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
+  text-align: center;
+}
+
+.grifo {
+  color: #33a8db;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.intro a {
+  background-color: #252525;
+  padding: 16px 127px;
+  border-radius: 50px;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid #33a8db;
 }
